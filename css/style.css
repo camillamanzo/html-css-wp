@@ -42,13 +42,17 @@ nav a{
     margin-bottom: 20px;
 }
 
+h3 > p{
+    color: grey;;
+}
+
 #logo-img{
     width: 110px;
     border-right: 1px solid rgb(138, 138, 138, .2);
     padding-right: 10px;
 }
 
-#banner-one{
+#banner-img{
     background-image: 
     linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)),
     url("../img/banner.jpg");
@@ -56,6 +60,7 @@ nav a{
     border-radius: 10px;
     color: white;
     background-position: center;
+    min-width: 304px;
 }
 
 #white-text{
@@ -79,10 +84,12 @@ nav a{
 
 .img{
     width: 100%;
+    max-width: 133px;
 }
 
 .bnr{
     width: 50%;
+    max-width: 166px;
 }
 
 .small{
